@@ -1,0 +1,14 @@
+#charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+p {
+    background-color: rgba(0, 0, 71, 0.356);
+    text-align: justify;
+    width: 500px;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+}

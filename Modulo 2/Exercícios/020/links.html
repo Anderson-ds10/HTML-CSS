@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    a {
+        color: red;
+        text-decoration: none;
+    }
+    a:visited {
+        color: darkgreen;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    a:active {
+        color: yellow;
+    }
+    .especial::after {
+        content: '☚';
+    }
+    .especial::before {
+        content: '☛';
+    }
+    .especial {
+        background-color: chartreuse;
+        color: aliceblue;
+        
+    }
+</style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/silvadrinho/" target="_blanck">Instagram</a></li>
+        <li><a href="https://www.youtube.com/user/angelCABR7" target="_blanck" class="especial">Youtube</a></li>
+        <li><a href="https://twitter.com/drinhooooo_" target="_blanck">Twitter</a></li>
+    </ul>
+    
+</body>
+</html>
